@@ -1,5 +1,5 @@
-cp /home1/08197/jiaao/software/sobtop_1.0/* .
-
+#cp /home1/08197/jiaao/software/sobtop_1.0/* .
+cp $SCRIPTS/sobtop_1.0/* .
 ./sobtop <<EOF
 mol.mol2
 1

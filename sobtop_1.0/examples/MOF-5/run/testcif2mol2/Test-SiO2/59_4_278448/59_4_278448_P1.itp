@@ -1,0 +1,1244 @@
+; Created by Sobtop (http://sobereva.com/soft/sobtop) Version 1.0(dev3.1) on 2022-07-29
+
+[ atomtypes ]
+; name   at.num      mass       charge   ptype     sigma (nm)    epsilon (kJ/mol)
+O_bulk       8    15.999405    0.000000    A      3.469160E-01    2.259360E-01
+Si_bulk     14    28.085499    0.000000    A      4.149806E-01    3.891120E-01
+
+[ moleculetype ]
+; name          nrexcl
+59_4_278448_P1       3
+
+[ atoms ]
+;  Index   type   residue  resname   atom        cgnr     charge       mass
+     1     O_bulk     1      MOL      O            1   -0.55000000   15.999405
+     2     O_bulk     1      MOL      O            2   -0.55000000   15.999405
+     3     O_bulk     1      MOL      O            3   -0.55000000   15.999405
+     4     O_bulk     1      MOL      O            4   -0.55000000   15.999405
+     5     O_bulk     1      MOL      O            5   -0.55000000   15.999405
+     6     O_bulk     1      MOL      O            6   -0.55000000   15.999405
+     7     O_bulk     1      MOL      O            7   -0.55000000   15.999405
+     8     O_bulk     1      MOL      O            8   -0.55000000   15.999405
+     9     O_bulk     1      MOL      O            9   -0.55000000   15.999405
+    10     O_bulk     1      MOL      O           10   -0.55000000   15.999405
+    11     O_bulk     1      MOL      O           11   -0.55000000   15.999405
+    12     O_bulk     1      MOL      O           12   -0.55000000   15.999405
+    13     O_bulk     1      MOL      O           13   -0.55000000   15.999405
+    14     O_bulk     1      MOL      O           14   -0.55000000   15.999405
+    15     O_bulk     1      MOL      O           15   -0.55000000   15.999405
+    16     O_bulk     1      MOL      O           16   -0.55000000   15.999405
+    17     O_bulk     1      MOL      O           17   -0.55000000   15.999405
+    18     O_bulk     1      MOL      O           18   -0.55000000   15.999405
+    19     O_bulk     1      MOL      O           19   -0.55000000   15.999405
+    20     O_bulk     1      MOL      O           20   -0.55000000   15.999405
+    21     O_bulk     1      MOL      O           21   -0.55000000   15.999405
+    22     O_bulk     1      MOL      O           22   -0.55000000   15.999405
+    23     O_bulk     1      MOL      O           23   -0.55000000   15.999405
+    24     O_bulk     1      MOL      O           24   -0.55000000   15.999405
+    25     O_bulk     1      MOL      O           25   -0.55000000   15.999405
+    26     O_bulk     1      MOL      O           26   -0.55000000   15.999405
+    27     O_bulk     1      MOL      O           27   -0.55000000   15.999405
+    28     O_bulk     1      MOL      O           28   -0.55000000   15.999405
+    29     O_bulk     1      MOL      O           29   -0.55000000   15.999405
+    30     O_bulk     1      MOL      O           30   -0.55000000   15.999405
+    31     O_bulk     1      MOL      O           31   -0.55000000   15.999405
+    32     O_bulk     1      MOL      O           32   -0.55000000   15.999405
+    33     O_bulk     1      MOL      O           33   -0.55000000   15.999405
+    34     O_bulk     1      MOL      O           34   -0.55000000   15.999405
+    35     O_bulk     1      MOL      O           35   -0.55000000   15.999405
+    36     O_bulk     1      MOL      O           36   -0.55000000   15.999405
+    37     O_bulk     1      MOL      O           37   -0.55000000   15.999405
+    38     O_bulk     1      MOL      O           38   -0.55000000   15.999405
+    39     O_bulk     1      MOL      O           39   -0.55000000   15.999405
+    40     O_bulk     1      MOL      O           40   -0.55000000   15.999405
+    41     O_bulk     1      MOL      O           41   -0.55000000   15.999405
+    42     O_bulk     1      MOL      O           42   -0.55000000   15.999405
+    43     O_bulk     1      MOL      O           43   -0.55000000   15.999405
+    44     O_bulk     1      MOL      O           44   -0.55000000   15.999405
+    45     O_bulk     1      MOL      O           45   -0.55000000   15.999405
+    46     O_bulk     1      MOL      O           46   -0.55000000   15.999405
+    47     O_bulk     1      MOL      O           47   -0.55000000   15.999405
+    48     O_bulk     1      MOL      O           48   -0.55000000   15.999405
+    49     O_bulk     1      MOL      O           49   -0.55000000   15.999405
+    50     O_bulk     1      MOL      O           50   -0.55000000   15.999405
+    51     O_bulk     1      MOL      O           51   -0.55000000   15.999405
+    52     O_bulk     1      MOL      O           52   -0.55000000   15.999405
+    53     O_bulk     1      MOL      O           53   -0.55000000   15.999405
+    54     O_bulk     1      MOL      O           54   -0.55000000   15.999405
+    55     O_bulk     1      MOL      O           55   -0.55000000   15.999405
+    56     O_bulk     1      MOL      O           56   -0.55000000   15.999405
+    57     O_bulk     1      MOL      O           57   -0.55000000   15.999405
+    58     O_bulk     1      MOL      O           58   -0.55000000   15.999405
+    59     O_bulk     1      MOL      O           59   -0.55000000   15.999405
+    60     O_bulk     1      MOL      O           60   -0.55000000   15.999405
+    61     O_bulk     1      MOL      O           61   -0.55000000   15.999405
+    62     O_bulk     1      MOL      O           62   -0.55000000   15.999405
+    63     O_bulk     1      MOL      O           63   -0.55000000   15.999405
+    64     O_bulk     1      MOL      O           64   -0.55000000   15.999405
+    65     Si_bulk    1      MOL      SI          65    1.10000000   28.085499
+    66     Si_bulk    1      MOL      SI          66    1.10000000   28.085499
+    67     Si_bulk    1      MOL      SI          67    1.10000000   28.085499
+    68     Si_bulk    1      MOL      SI          68    1.10000000   28.085499
+    69     Si_bulk    1      MOL      SI          69    1.10000000   28.085499
+    70     Si_bulk    1      MOL      SI          70    1.10000000   28.085499
+    71     Si_bulk    1      MOL      SI          71    1.10000000   28.085499
+    72     Si_bulk    1      MOL      SI          72    1.10000000   28.085499
+    73     Si_bulk    1      MOL      SI          73    1.10000000   28.085499
+    74     Si_bulk    1      MOL      SI          74    1.10000000   28.085499
+    75     Si_bulk    1      MOL      SI          75    1.10000000   28.085499
+    76     Si_bulk    1      MOL      SI          76    1.10000000   28.085499
+    77     Si_bulk    1      MOL      SI          77    1.10000000   28.085499
+    78     Si_bulk    1      MOL      SI          78    1.10000000   28.085499
+    79     Si_bulk    1      MOL      SI          79    1.10000000   28.085499
+    80     Si_bulk    1      MOL      SI          80    1.10000000   28.085499
+    81     Si_bulk    1      MOL      SI          81    1.10000000   28.085499
+    82     Si_bulk    1      MOL      SI          82    1.10000000   28.085499
+    83     Si_bulk    1      MOL      SI          83    1.10000000   28.085499
+    84     Si_bulk    1      MOL      SI          84    1.10000000   28.085499
+    85     Si_bulk    1      MOL      SI          85    1.10000000   28.085499
+    86     Si_bulk    1      MOL      SI          86    1.10000000   28.085499
+    87     Si_bulk    1      MOL      SI          87    1.10000000   28.085499
+    88     Si_bulk    1      MOL      SI          88    1.10000000   28.085499
+    89     Si_bulk    1      MOL      SI          89    1.10000000   28.085499
+    90     Si_bulk    1      MOL      SI          90    1.10000000   28.085499
+    91     Si_bulk    1      MOL      SI          91    1.10000000   28.085499
+    92     Si_bulk    1      MOL      SI          92    1.10000000   28.085499
+    93     Si_bulk    1      MOL      SI          93    1.10000000   28.085499
+    94     Si_bulk    1      MOL      SI          94    1.10000000   28.085499
+    95     Si_bulk    1      MOL      SI          95    1.10000000   28.085499
+    96     Si_bulk    1      MOL      SI          96    1.10000000   28.085499
+ 
+[ bonds ]
+; atom_i  atom_j  functype      r0 (nm)    k (kJ/mol/nm^2)
+    1      65         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    1      71         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    2      66         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    2      72         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    3      67         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    3      69         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    4      68         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    4      70         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    5      65         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    5      71         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    6      66         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    6      72         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    7      67         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    7      69         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    8      68         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    8      70         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    9      65         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+    9      73         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   10      66         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   10      74         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   11      67         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   11      75         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   12      68         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   12      76         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   13      69         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   13      77         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   14      70         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   14      78         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   15      71         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   15      79         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   16      72         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   16      80         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   17      69         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   17      81         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   18      70         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   18      82         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   19      71         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   19      83         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   20      72         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   20      84         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   21      65         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   21      85         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   22      66         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   22      86         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   23      67         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   23      87         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   24      68         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   24      88         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   25      73         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   25      79         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   26      74         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   26      80         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   27      75         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   27      77         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   28      76         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   28      78         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   29      73         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   29      89         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   30      74         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   30      90         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   31      75         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   31      91         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   32      76         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   32      92         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   33      77         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   33      93         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   34      78         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   34      94         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   35      79         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   35      95         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   36      80         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   36      96         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   37      73         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   37      93         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   38      74         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   38      94         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   39      75         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   39      95         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   40      76         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   40      96         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   41      77         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   41      89         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   42      78         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   42      90         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   43      79         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   43      91         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   44      80         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   44      92         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   45      81         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   45      87         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   46      82         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   46      88         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   47      83         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   47      85         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   48      84         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   48      86         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   49      81         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   49      88         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   50      82         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   50      87         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   51      83         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   51      86         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   52      84         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   52      85         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   53      81         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   53      89         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   54      82         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   54      90         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   55      83         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   55      91         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   56      84         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   56      92         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   57      85         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   57      93         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   58      86         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   58      94         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   59      87         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   59      95         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   60      88         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   60      96         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   61      89         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   61      95         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   62      90         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   62      96         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   63      91         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   63      93         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   64      92         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+   64      94         1        0.165000     2.384880E+05     ;  O- SI, prebuilt Si_bulk-O_bulk
+ 
+[ angles ]
+; atom_i  atom_j  atom_k  functype    a0 (Deg.)  k (kJ/mol/rad^2)
+    1      65       5         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    1      65       9         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    1      65      21         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    1      71       5         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    1      71      15         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    1      71      19         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    2      66       6         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    2      66      10         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    2      66      22         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    2      72       6         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    2      72      16         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    2      72      20         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    3      67       7         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    3      67      11         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    3      67      23         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    3      69       7         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    3      69      13         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    3      69      17         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    4      68       8         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    4      68      12         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    4      68      24         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    4      70       8         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    4      70      14         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    4      70      18         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    5      65       9         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    5      65      21         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    5      71      15         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    5      71      19         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    6      66      10         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    6      66      22         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    6      72      16         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    6      72      20         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    7      67      11         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    7      67      23         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    7      69      13         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    7      69      17         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    8      68      12         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    8      68      24         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    8      70      14         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    8      70      18         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    9      65      21         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    9      73      25         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    9      73      29         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+    9      73      37         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   10      66      22         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   10      74      26         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   10      74      30         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   10      74      38         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   11      67      23         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   11      75      27         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   11      75      31         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   11      75      39         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   12      68      24         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   12      76      28         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   12      76      32         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   12      76      40         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   13      69      17         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   13      77      27         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   13      77      33         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   13      77      41         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   14      70      18         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   14      78      28         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   14      78      34         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   14      78      42         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   15      71      19         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   15      79      25         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   15      79      35         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   15      79      43         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   16      72      20         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   16      80      26         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   16      80      36         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   16      80      44         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   17      81      45         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   17      81      49         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   17      81      53         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   18      82      46         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   18      82      50         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   18      82      54         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   19      83      47         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   19      83      51         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   19      83      55         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   20      84      48         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   20      84      52         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   20      84      56         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   21      85      47         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   21      85      52         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   21      85      57         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   22      86      48         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   22      86      51         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   22      86      58         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   23      87      45         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   23      87      50         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   23      87      59         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   24      88      46         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   24      88      49         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   24      88      60         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   25      73      29         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   25      73      37         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   25      79      35         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   25      79      43         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   26      74      30         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   26      74      38         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   26      80      36         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   26      80      44         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   27      75      31         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   27      75      39         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   27      77      33         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   27      77      41         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   28      76      32         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   28      76      40         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   28      78      34         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   28      78      42         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   29      73      37         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   29      89      41         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   29      89      53         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   29      89      61         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   30      74      38         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   30      90      42         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   30      90      54         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   30      90      62         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   31      75      39         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   31      91      43         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   31      91      55         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   31      91      63         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   32      76      40         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   32      92      44         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   32      92      56         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   32      92      64         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   33      77      41         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   33      93      37         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   33      93      57         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   33      93      63         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   34      78      42         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   34      94      38         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   34      94      58         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   34      94      64         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   35      79      43         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   35      95      39         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   35      95      59         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   35      95      61         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   36      80      44         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   36      96      40         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   36      96      60         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   36      96      62         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   37      93      57         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   37      93      63         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   38      94      58         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   38      94      64         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   39      95      59         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   39      95      61         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   40      96      60         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   40      96      62         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   41      89      53         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   41      89      61         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   42      90      54         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   42      90      62         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   43      91      55         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   43      91      63         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   44      92      56         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   44      92      64         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   45      81      49         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   45      81      53         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   45      87      50         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   45      87      59         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   46      82      50         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   46      82      54         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   46      88      49         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   46      88      60         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   47      83      51         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   47      83      55         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   47      85      52         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   47      85      57         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   48      84      52         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   48      84      56         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   48      86      51         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   48      86      58         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   49      81      53         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   49      88      60         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   50      82      54         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   50      87      59         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   51      83      55         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   51      86      58         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   52      84      56         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   52      85      57         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   53      89      61         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   54      90      62         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   55      91      63         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   56      92      64         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   57      93      63         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   58      94      64         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   59      95      61         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   60      96      62         1       109.500      8.368000E+02     ;  O- SI- O, prebuilt O_bulk-Si_bulk-O_bulk
+   65       1      71         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   65       5      71         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   65       9      73         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   65      21      85         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   66       2      72         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   66       6      72         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   66      10      74         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   66      22      86         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   67       3      69         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   67       7      69         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   67      11      75         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   67      23      87         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   68       4      70         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   68       8      70         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   68      12      76         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   68      24      88         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   69      13      77         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   69      17      81         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   70      14      78         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   70      18      82         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   71      15      79         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   71      19      83         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   72      16      80         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   72      20      84         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   73      25      79         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   73      29      89         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   73      37      93         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   74      26      80         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   74      30      90         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   74      38      94         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   75      27      77         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   75      31      91         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   75      39      95         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   76      28      78         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   76      32      92         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   76      40      96         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   77      33      93         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   77      41      89         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   78      34      94         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   78      42      90         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   79      35      95         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   79      43      91         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   80      36      96         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   80      44      92         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   81      45      87         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   81      49      88         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   81      53      89         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   82      46      88         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   82      50      87         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   82      54      90         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   83      47      85         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   83      51      86         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   83      55      91         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   84      48      86         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   84      52      85         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   84      56      92         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   85      57      93         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   86      58      94         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   87      59      95         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   88      60      96         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   89      61      95         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   90      62      96         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   91      63      93         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+   92      64      94         1       149.000      8.368000E+02     ;  SI- O- SI, prebuilt Si_bulk-O_bulk-Si_bulk
+ 
+[ dihedrals ] ; propers
+; atom_i  atom_j  atom_k  atom_l  functype   d0 (Deg.)   k (kJ/mol/rad^2)    ; Case of functype=2
+; atom_i  atom_j  atom_k  atom_l  functype  phase (Deg.)  kd (kJ/mol) pn     ; Case of functype=9
+    1      65       5      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    1      65       9      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    1      65      21      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    1      71       5      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    1      71      15      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    1      71      19      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    2      66       6      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    2      66      10      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    2      66      22      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    2      72       6      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    2      72      16      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    2      72      20      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    3      67       7      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    3      67      11      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    3      67      23      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    3      69       7      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    3      69      13      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    3      69      17      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    4      68       8      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    4      68      12      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    4      68      24      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    4      70       8      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    4      70      14      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    4      70      18      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    5      65       1      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    5      65       9      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    5      65      21      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    5      71       1      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    5      71      15      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    5      71      19      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    6      66       2      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    6      66      10      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    6      66      22      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    6      72       2      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    6      72      16      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    6      72      20      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    7      67       3      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    7      67      11      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    7      67      23      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    7      69       3      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    7      69      13      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    7      69      17      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    8      68       4      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    8      68      12      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    8      68      24      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    8      70       4      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    8      70      14      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    8      70      18      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    9      65       1      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    9      65       5      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    9      65      21      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    9      73      25      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    9      73      29      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+    9      73      37      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   10      66       2      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   10      66       6      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   10      66      22      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   10      74      26      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   10      74      30      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   10      74      38      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   11      67       3      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   11      67       7      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   11      67      23      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   11      75      27      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   11      75      31      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   11      75      39      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   12      68       4      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   12      68       8      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   12      68      24      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   12      76      28      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   12      76      32      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   12      76      40      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   13      69       3      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   13      69       7      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   13      69      17      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   13      77      27      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   13      77      33      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   13      77      41      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   14      70       4      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   14      70       8      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   14      70      18      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   14      78      28      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   14      78      34      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   14      78      42      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   15      71       1      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   15      71       5      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   15      71      19      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   15      79      25      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   15      79      35      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   15      79      43      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   16      72       2      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   16      72       6      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   16      72      20      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   16      80      26      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   16      80      36      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   16      80      44      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   17      69       3      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   17      69       7      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   17      69      13      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   17      81      45      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   17      81      49      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   17      81      53      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   18      70       4      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   18      70       8      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   18      70      14      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   18      82      46      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   18      82      50      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   18      82      54      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   19      71       1      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   19      71       5      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   19      71      15      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   19      83      47      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   19      83      51      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   19      83      55      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   20      72       2      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   20      72       6      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   20      72      16      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   20      84      48      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   20      84      52      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   20      84      56      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   21      65       1      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   21      65       5      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   21      65       9      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   21      85      47      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   21      85      52      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   21      85      57      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   22      66       2      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   22      66       6      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   22      66      10      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   22      86      48      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   22      86      51      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   22      86      58      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   23      67       3      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   23      67       7      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   23      67      11      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   23      87      45      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   23      87      50      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   23      87      59      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   24      68       4      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   24      68       8      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   24      68      12      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   24      88      46      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   24      88      49      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   24      88      60      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   25      73       9      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   25      73      29      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   25      73      37      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   25      79      15      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   25      79      35      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   25      79      43      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   26      74      10      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   26      74      30      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   26      74      38      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   26      80      16      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   26      80      36      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   26      80      44      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   27      75      11      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   27      75      31      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   27      75      39      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   27      77      13      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   27      77      33      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   27      77      41      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   28      76      12      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   28      76      32      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   28      76      40      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   28      78      14      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   28      78      34      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   28      78      42      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   29      73       9      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   29      73      25      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   29      73      37      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   29      89      41      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   29      89      53      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   29      89      61      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   30      74      10      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   30      74      26      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   30      74      38      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   30      90      42      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   30      90      54      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   30      90      62      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   31      75      11      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   31      75      27      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   31      75      39      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   31      91      43      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   31      91      55      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   31      91      63      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   32      76      12      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   32      76      28      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   32      76      40      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   32      92      44      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   32      92      56      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   32      92      64      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   33      77      13      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   33      77      27      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   33      77      41      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   33      93      37      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   33      93      57      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   33      93      63      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   34      78      14      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   34      78      28      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   34      78      42      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   34      94      38      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   34      94      58      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   34      94      64      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   35      79      15      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   35      79      25      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   35      79      43      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   35      95      39      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   35      95      59      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   35      95      61      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   36      80      16      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   36      80      26      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   36      80      44      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   36      96      40      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   36      96      60      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   36      96      62      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   37      73       9      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   37      73      25      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   37      73      29      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   37      93      33      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   37      93      57      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   37      93      63      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   38      74      10      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   38      74      26      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   38      74      30      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   38      94      34      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   38      94      58      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   38      94      64      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   39      75      11      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   39      75      27      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   39      75      31      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   39      95      35      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   39      95      59      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   39      95      61      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   40      76      12      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   40      76      28      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   40      76      32      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   40      96      36      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   40      96      60      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   40      96      62      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   41      77      13      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   41      77      27      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   41      77      33      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   41      89      29      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   41      89      53      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   41      89      61      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   42      78      14      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   42      78      28      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   42      78      34      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   42      90      30      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   42      90      54      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   42      90      62      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   43      79      15      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   43      79      25      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   43      79      35      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   43      91      31      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   43      91      55      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   43      91      63      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   44      80      16      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   44      80      26      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   44      80      36      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   44      92      32      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   44      92      56      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   44      92      64      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   45      81      17      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   45      81      49      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   45      81      53      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   45      87      23      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   45      87      50      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   45      87      59      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   46      82      18      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   46      82      50      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   46      82      54      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   46      88      24      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   46      88      49      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   46      88      60      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   47      83      19      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   47      83      51      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   47      83      55      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   47      85      21      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   47      85      52      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   47      85      57      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   48      84      20      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   48      84      52      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   48      84      56      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   48      86      22      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   48      86      51      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   48      86      58      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   49      81      17      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   49      81      45      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   49      81      53      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   49      88      24      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   49      88      46      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   49      88      60      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   50      82      18      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   50      82      46      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   50      82      54      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   50      87      23      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   50      87      45      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   50      87      59      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   51      83      19      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   51      83      47      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   51      83      55      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   51      86      22      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   51      86      48      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   51      86      58      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   52      84      20      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   52      84      48      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   52      84      56      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   52      85      21      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   52      85      47      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   52      85      57      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   53      81      17      69         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   53      81      45      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   53      81      49      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   53      89      29      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   53      89      41      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   53      89      61      95         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   54      82      18      70         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   54      82      46      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   54      82      50      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   54      90      30      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   54      90      42      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   54      90      62      96         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   55      83      19      71         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   55      83      47      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   55      83      51      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   55      91      31      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   55      91      43      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   55      91      63      93         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   56      84      20      72         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   56      84      48      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   56      84      52      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   56      92      32      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   56      92      44      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   56      92      64      94         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   57      85      21      65         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   57      85      47      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   57      85      52      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   57      93      33      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   57      93      37      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   57      93      63      91         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   58      86      22      66         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   58      86      48      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   58      86      51      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   58      94      34      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   58      94      38      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   58      94      64      92         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   59      87      23      67         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   59      87      45      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   59      87      50      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   59      95      35      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   59      95      39      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   59      95      61      89         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   60      88      24      68         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   60      88      46      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   60      88      49      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   60      96      36      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   60      96      40      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   60      96      62      90         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   61      89      29      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   61      89      41      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   61      89      53      81         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   61      95      35      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   61      95      39      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   61      95      59      87         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   62      90      30      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   62      90      42      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   62      90      54      82         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   62      96      36      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   62      96      40      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   62      96      60      88         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   63      91      31      75         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   63      91      43      79         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   63      91      55      83         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   63      93      33      77         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   63      93      37      73         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   63      93      57      85         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   64      92      32      76         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   64      92      44      80         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   64      92      56      84         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   64      94      34      78         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   64      94      38      74         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+   64      94      58      86         9         0.000       0.00000    1     ;  O- SI- O- SI (O_bulk-Si_bulk-O_bulk-Si_bulk) missing
+
+[ pairs ] ; Yielded based on rotatable dihedrals
+; atom_i  atom_j  functype
+    1      73         1     ;  O- SI- O- SI
+    1      85         1     ;  O- SI- O- SI
+    1      79         1     ;  O- SI- O- SI
+    1      83         1     ;  O- SI- O- SI
+    2      74         1     ;  O- SI- O- SI
+    2      86         1     ;  O- SI- O- SI
+    2      80         1     ;  O- SI- O- SI
+    2      84         1     ;  O- SI- O- SI
+    3      75         1     ;  O- SI- O- SI
+    3      87         1     ;  O- SI- O- SI
+    3      77         1     ;  O- SI- O- SI
+    3      81         1     ;  O- SI- O- SI
+    4      76         1     ;  O- SI- O- SI
+    4      88         1     ;  O- SI- O- SI
+    4      78         1     ;  O- SI- O- SI
+    4      82         1     ;  O- SI- O- SI
+    5      73         1     ;  O- SI- O- SI
+    5      85         1     ;  O- SI- O- SI
+    5      79         1     ;  O- SI- O- SI
+    5      83         1     ;  O- SI- O- SI
+    6      74         1     ;  O- SI- O- SI
+    6      86         1     ;  O- SI- O- SI
+    6      80         1     ;  O- SI- O- SI
+    6      84         1     ;  O- SI- O- SI
+    7      75         1     ;  O- SI- O- SI
+    7      87         1     ;  O- SI- O- SI
+    7      77         1     ;  O- SI- O- SI
+    7      81         1     ;  O- SI- O- SI
+    8      76         1     ;  O- SI- O- SI
+    8      88         1     ;  O- SI- O- SI
+    8      78         1     ;  O- SI- O- SI
+    8      82         1     ;  O- SI- O- SI
+    9      71         1     ;  O- SI- O- SI
+    9      85         1     ;  O- SI- O- SI
+    9      79         1     ;  O- SI- O- SI
+    9      89         1     ;  O- SI- O- SI
+    9      93         1     ;  O- SI- O- SI
+   10      72         1     ;  O- SI- O- SI
+   10      86         1     ;  O- SI- O- SI
+   10      80         1     ;  O- SI- O- SI
+   10      90         1     ;  O- SI- O- SI
+   10      94         1     ;  O- SI- O- SI
+   11      69         1     ;  O- SI- O- SI
+   11      87         1     ;  O- SI- O- SI
+   11      77         1     ;  O- SI- O- SI
+   11      91         1     ;  O- SI- O- SI
+   11      95         1     ;  O- SI- O- SI
+   12      70         1     ;  O- SI- O- SI
+   12      88         1     ;  O- SI- O- SI
+   12      78         1     ;  O- SI- O- SI
+   12      92         1     ;  O- SI- O- SI
+   12      96         1     ;  O- SI- O- SI
+   13      67         1     ;  O- SI- O- SI
+   13      81         1     ;  O- SI- O- SI
+   13      75         1     ;  O- SI- O- SI
+   13      93         1     ;  O- SI- O- SI
+   13      89         1     ;  O- SI- O- SI
+   14      68         1     ;  O- SI- O- SI
+   14      82         1     ;  O- SI- O- SI
+   14      76         1     ;  O- SI- O- SI
+   14      94         1     ;  O- SI- O- SI
+   14      90         1     ;  O- SI- O- SI
+   15      65         1     ;  O- SI- O- SI
+   15      83         1     ;  O- SI- O- SI
+   15      73         1     ;  O- SI- O- SI
+   15      95         1     ;  O- SI- O- SI
+   15      91         1     ;  O- SI- O- SI
+   16      66         1     ;  O- SI- O- SI
+   16      84         1     ;  O- SI- O- SI
+   16      74         1     ;  O- SI- O- SI
+   16      96         1     ;  O- SI- O- SI
+   16      92         1     ;  O- SI- O- SI
+   17      67         1     ;  O- SI- O- SI
+   17      77         1     ;  O- SI- O- SI
+   17      87         1     ;  O- SI- O- SI
+   17      88         1     ;  O- SI- O- SI
+   17      89         1     ;  O- SI- O- SI
+   18      68         1     ;  O- SI- O- SI
+   18      78         1     ;  O- SI- O- SI
+   18      88         1     ;  O- SI- O- SI
+   18      87         1     ;  O- SI- O- SI
+   18      90         1     ;  O- SI- O- SI
+   19      65         1     ;  O- SI- O- SI
+   19      79         1     ;  O- SI- O- SI
+   19      85         1     ;  O- SI- O- SI
+   19      86         1     ;  O- SI- O- SI
+   19      91         1     ;  O- SI- O- SI
+   20      66         1     ;  O- SI- O- SI
+   20      80         1     ;  O- SI- O- SI
+   20      86         1     ;  O- SI- O- SI
+   20      85         1     ;  O- SI- O- SI
+   20      92         1     ;  O- SI- O- SI
+   21      71         1     ;  O- SI- O- SI
+   21      73         1     ;  O- SI- O- SI
+   21      83         1     ;  O- SI- O- SI
+   21      84         1     ;  O- SI- O- SI
+   21      93         1     ;  O- SI- O- SI
+   22      72         1     ;  O- SI- O- SI
+   22      74         1     ;  O- SI- O- SI
+   22      84         1     ;  O- SI- O- SI
+   22      83         1     ;  O- SI- O- SI
+   22      94         1     ;  O- SI- O- SI
+   23      69         1     ;  O- SI- O- SI
+   23      75         1     ;  O- SI- O- SI
+   23      81         1     ;  O- SI- O- SI
+   23      82         1     ;  O- SI- O- SI
+   23      95         1     ;  O- SI- O- SI
+   24      70         1     ;  O- SI- O- SI
+   24      76         1     ;  O- SI- O- SI
+   24      82         1     ;  O- SI- O- SI
+   24      81         1     ;  O- SI- O- SI
+   24      96         1     ;  O- SI- O- SI
+   25      65         1     ;  O- SI- O- SI
+   25      89         1     ;  O- SI- O- SI
+   25      93         1     ;  O- SI- O- SI
+   25      71         1     ;  O- SI- O- SI
+   25      95         1     ;  O- SI- O- SI
+   25      91         1     ;  O- SI- O- SI
+   26      66         1     ;  O- SI- O- SI
+   26      90         1     ;  O- SI- O- SI
+   26      94         1     ;  O- SI- O- SI
+   26      72         1     ;  O- SI- O- SI
+   26      96         1     ;  O- SI- O- SI
+   26      92         1     ;  O- SI- O- SI
+   27      67         1     ;  O- SI- O- SI
+   27      91         1     ;  O- SI- O- SI
+   27      95         1     ;  O- SI- O- SI
+   27      69         1     ;  O- SI- O- SI
+   27      93         1     ;  O- SI- O- SI
+   27      89         1     ;  O- SI- O- SI
+   28      68         1     ;  O- SI- O- SI
+   28      92         1     ;  O- SI- O- SI
+   28      96         1     ;  O- SI- O- SI
+   28      70         1     ;  O- SI- O- SI
+   28      94         1     ;  O- SI- O- SI
+   28      90         1     ;  O- SI- O- SI
+   29      65         1     ;  O- SI- O- SI
+   29      79         1     ;  O- SI- O- SI
+   29      93         1     ;  O- SI- O- SI
+   29      77         1     ;  O- SI- O- SI
+   29      81         1     ;  O- SI- O- SI
+   29      95         1     ;  O- SI- O- SI
+   30      66         1     ;  O- SI- O- SI
+   30      80         1     ;  O- SI- O- SI
+   30      94         1     ;  O- SI- O- SI
+   30      78         1     ;  O- SI- O- SI
+   30      82         1     ;  O- SI- O- SI
+   30      96         1     ;  O- SI- O- SI
+   31      67         1     ;  O- SI- O- SI
+   31      77         1     ;  O- SI- O- SI
+   31      95         1     ;  O- SI- O- SI
+   31      79         1     ;  O- SI- O- SI
+   31      83         1     ;  O- SI- O- SI
+   31      93         1     ;  O- SI- O- SI
+   32      68         1     ;  O- SI- O- SI
+   32      78         1     ;  O- SI- O- SI
+   32      96         1     ;  O- SI- O- SI
+   32      80         1     ;  O- SI- O- SI
+   32      84         1     ;  O- SI- O- SI
+   32      94         1     ;  O- SI- O- SI
+   33      69         1     ;  O- SI- O- SI
+   33      75         1     ;  O- SI- O- SI
+   33      89         1     ;  O- SI- O- SI
+   33      73         1     ;  O- SI- O- SI
+   33      85         1     ;  O- SI- O- SI
+   33      91         1     ;  O- SI- O- SI
+   34      70         1     ;  O- SI- O- SI
+   34      76         1     ;  O- SI- O- SI
+   34      90         1     ;  O- SI- O- SI
+   34      74         1     ;  O- SI- O- SI
+   34      86         1     ;  O- SI- O- SI
+   34      92         1     ;  O- SI- O- SI
+   35      71         1     ;  O- SI- O- SI
+   35      73         1     ;  O- SI- O- SI
+   35      91         1     ;  O- SI- O- SI
+   35      75         1     ;  O- SI- O- SI
+   35      87         1     ;  O- SI- O- SI
+   35      89         1     ;  O- SI- O- SI
+   36      72         1     ;  O- SI- O- SI
+   36      74         1     ;  O- SI- O- SI
+   36      92         1     ;  O- SI- O- SI
+   36      76         1     ;  O- SI- O- SI
+   36      88         1     ;  O- SI- O- SI
+   36      90         1     ;  O- SI- O- SI
+   37      65         1     ;  O- SI- O- SI
+   37      79         1     ;  O- SI- O- SI
+   37      89         1     ;  O- SI- O- SI
+   37      77         1     ;  O- SI- O- SI
+   37      85         1     ;  O- SI- O- SI
+   37      91         1     ;  O- SI- O- SI
+   38      66         1     ;  O- SI- O- SI
+   38      80         1     ;  O- SI- O- SI
+   38      90         1     ;  O- SI- O- SI
+   38      78         1     ;  O- SI- O- SI
+   38      86         1     ;  O- SI- O- SI
+   38      92         1     ;  O- SI- O- SI
+   39      67         1     ;  O- SI- O- SI
+   39      77         1     ;  O- SI- O- SI
+   39      91         1     ;  O- SI- O- SI
+   39      79         1     ;  O- SI- O- SI
+   39      87         1     ;  O- SI- O- SI
+   39      89         1     ;  O- SI- O- SI
+   40      68         1     ;  O- SI- O- SI
+   40      78         1     ;  O- SI- O- SI
+   40      92         1     ;  O- SI- O- SI
+   40      80         1     ;  O- SI- O- SI
+   40      88         1     ;  O- SI- O- SI
+   40      90         1     ;  O- SI- O- SI
+   41      69         1     ;  O- SI- O- SI
+   41      75         1     ;  O- SI- O- SI
+   41      93         1     ;  O- SI- O- SI
+   41      73         1     ;  O- SI- O- SI
+   41      81         1     ;  O- SI- O- SI
+   41      95         1     ;  O- SI- O- SI
+   42      70         1     ;  O- SI- O- SI
+   42      76         1     ;  O- SI- O- SI
+   42      94         1     ;  O- SI- O- SI
+   42      74         1     ;  O- SI- O- SI
+   42      82         1     ;  O- SI- O- SI
+   42      96         1     ;  O- SI- O- SI
+   43      71         1     ;  O- SI- O- SI
+   43      73         1     ;  O- SI- O- SI
+   43      95         1     ;  O- SI- O- SI
+   43      75         1     ;  O- SI- O- SI
+   43      83         1     ;  O- SI- O- SI
+   43      93         1     ;  O- SI- O- SI
+   44      72         1     ;  O- SI- O- SI
+   44      74         1     ;  O- SI- O- SI
+   44      96         1     ;  O- SI- O- SI
+   44      76         1     ;  O- SI- O- SI
+   44      84         1     ;  O- SI- O- SI
+   44      94         1     ;  O- SI- O- SI
+   45      69         1     ;  O- SI- O- SI
+   45      88         1     ;  O- SI- O- SI
+   45      89         1     ;  O- SI- O- SI
+   45      67         1     ;  O- SI- O- SI
+   45      82         1     ;  O- SI- O- SI
+   45      95         1     ;  O- SI- O- SI
+   46      70         1     ;  O- SI- O- SI
+   46      87         1     ;  O- SI- O- SI
+   46      90         1     ;  O- SI- O- SI
+   46      68         1     ;  O- SI- O- SI
+   46      81         1     ;  O- SI- O- SI
+   46      96         1     ;  O- SI- O- SI
+   47      71         1     ;  O- SI- O- SI
+   47      86         1     ;  O- SI- O- SI
+   47      91         1     ;  O- SI- O- SI
+   47      65         1     ;  O- SI- O- SI
+   47      84         1     ;  O- SI- O- SI
+   47      93         1     ;  O- SI- O- SI
+   48      72         1     ;  O- SI- O- SI
+   48      85         1     ;  O- SI- O- SI
+   48      92         1     ;  O- SI- O- SI
+   48      66         1     ;  O- SI- O- SI
+   48      83         1     ;  O- SI- O- SI
+   48      94         1     ;  O- SI- O- SI
+   49      69         1     ;  O- SI- O- SI
+   49      87         1     ;  O- SI- O- SI
+   49      89         1     ;  O- SI- O- SI
+   49      68         1     ;  O- SI- O- SI
+   49      82         1     ;  O- SI- O- SI
+   49      96         1     ;  O- SI- O- SI
+   50      70         1     ;  O- SI- O- SI
+   50      88         1     ;  O- SI- O- SI
+   50      90         1     ;  O- SI- O- SI
+   50      67         1     ;  O- SI- O- SI
+   50      81         1     ;  O- SI- O- SI
+   50      95         1     ;  O- SI- O- SI
+   51      71         1     ;  O- SI- O- SI
+   51      85         1     ;  O- SI- O- SI
+   51      91         1     ;  O- SI- O- SI
+   51      66         1     ;  O- SI- O- SI
+   51      84         1     ;  O- SI- O- SI
+   51      94         1     ;  O- SI- O- SI
+   52      72         1     ;  O- SI- O- SI
+   52      86         1     ;  O- SI- O- SI
+   52      92         1     ;  O- SI- O- SI
+   52      65         1     ;  O- SI- O- SI
+   52      83         1     ;  O- SI- O- SI
+   52      93         1     ;  O- SI- O- SI
+   53      69         1     ;  O- SI- O- SI
+   53      87         1     ;  O- SI- O- SI
+   53      88         1     ;  O- SI- O- SI
+   53      73         1     ;  O- SI- O- SI
+   53      77         1     ;  O- SI- O- SI
+   53      95         1     ;  O- SI- O- SI
+   54      70         1     ;  O- SI- O- SI
+   54      88         1     ;  O- SI- O- SI
+   54      87         1     ;  O- SI- O- SI
+   54      74         1     ;  O- SI- O- SI
+   54      78         1     ;  O- SI- O- SI
+   54      96         1     ;  O- SI- O- SI
+   55      71         1     ;  O- SI- O- SI
+   55      85         1     ;  O- SI- O- SI
+   55      86         1     ;  O- SI- O- SI
+   55      75         1     ;  O- SI- O- SI
+   55      79         1     ;  O- SI- O- SI
+   55      93         1     ;  O- SI- O- SI
+   56      72         1     ;  O- SI- O- SI
+   56      86         1     ;  O- SI- O- SI
+   56      85         1     ;  O- SI- O- SI
+   56      76         1     ;  O- SI- O- SI
+   56      80         1     ;  O- SI- O- SI
+   56      94         1     ;  O- SI- O- SI
+   57      65         1     ;  O- SI- O- SI
+   57      83         1     ;  O- SI- O- SI
+   57      84         1     ;  O- SI- O- SI
+   57      77         1     ;  O- SI- O- SI
+   57      73         1     ;  O- SI- O- SI
+   57      91         1     ;  O- SI- O- SI
+   58      66         1     ;  O- SI- O- SI
+   58      84         1     ;  O- SI- O- SI
+   58      83         1     ;  O- SI- O- SI
+   58      78         1     ;  O- SI- O- SI
+   58      74         1     ;  O- SI- O- SI
+   58      92         1     ;  O- SI- O- SI
+   59      67         1     ;  O- SI- O- SI
+   59      81         1     ;  O- SI- O- SI
+   59      82         1     ;  O- SI- O- SI
+   59      79         1     ;  O- SI- O- SI
+   59      75         1     ;  O- SI- O- SI
+   59      89         1     ;  O- SI- O- SI
+   60      68         1     ;  O- SI- O- SI
+   60      82         1     ;  O- SI- O- SI
+   60      81         1     ;  O- SI- O- SI
+   60      80         1     ;  O- SI- O- SI
+   60      76         1     ;  O- SI- O- SI
+   60      90         1     ;  O- SI- O- SI
+   61      73         1     ;  O- SI- O- SI
+   61      77         1     ;  O- SI- O- SI
+   61      81         1     ;  O- SI- O- SI
+   61      79         1     ;  O- SI- O- SI
+   61      75         1     ;  O- SI- O- SI
+   61      87         1     ;  O- SI- O- SI
+   62      74         1     ;  O- SI- O- SI
+   62      78         1     ;  O- SI- O- SI
+   62      82         1     ;  O- SI- O- SI
+   62      80         1     ;  O- SI- O- SI
+   62      76         1     ;  O- SI- O- SI
+   62      88         1     ;  O- SI- O- SI
+   63      75         1     ;  O- SI- O- SI
+   63      79         1     ;  O- SI- O- SI
+   63      83         1     ;  O- SI- O- SI
+   63      77         1     ;  O- SI- O- SI
+   63      73         1     ;  O- SI- O- SI
+   63      85         1     ;  O- SI- O- SI
+   64      76         1     ;  O- SI- O- SI
+   64      80         1     ;  O- SI- O- SI
+   64      84         1     ;  O- SI- O- SI
+   64      78         1     ;  O- SI- O- SI
+   64      74         1     ;  O- SI- O- SI
+   64      86         1     ;  O- SI- O- SI
+
+; No improper needs to generate

@@ -1,0 +1,30 @@
+; Created by Sobtop (http://sobereva.com/soft/sobtop) Version 1.0(dev3.1) on 2022-08-07
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ    fudgeQQ
+     1              2              yes            0.5       0.8333
+; name   at.num      mass       charge   ptype     sigma (nm)    epsilon (kJ/mol)
+
+[ atomtypes ]
+
+c3           6    12.010736    0.000000    A      3.399670E-01    4.577296E-01
+n3           7    14.006703    0.000000    A      3.249999E-01    7.112800E-01
+o            8    15.999405    0.000000    A      3.469160E-01    2.259360E-01
+f            9    18.998403    0.000000    A      3.118146E-01    2.552240E-01
+UF_Li        3     6.940037    0.000000    A      2.183593E-01    1.046000E-01
+Si_bulk     14    28.085499    0.000000    A      4.149806E-01    3.891120E-01
+O_bulk       8    15.999405    0.000000    A      3.469160E-01    2.259360E-01
+
+
+
+#include "ready.itp"
+#include "mol.itp"
+
+
+[ system ]
+ready
+
+[ molecules ]
+; Molecule      nmols
+ready     1
+mol     29

@@ -1,0 +1,152 @@
+; Created by Sobtop (http://sobereva.com/soft/sobtop) Version 1.0(dev3.1) on 2022-08-07
+
+;[ atomtypes ]
+; name   at.num      mass       charge   ptype     sigma (nm)    epsilon (kJ/mol)
+;c3           6    12.010736    0.000000    A      3.399670E-01    4.577296E-01
+;n3           7    14.006703    0.000000    A      3.249999E-01    7.112800E-01
+;o            8    15.999405    0.000000    A      3.469160E-01    2.259360E-01
+;f            9    18.998403    0.000000    A      3.118146E-01    2.552240E-01
+;UF_Li        3     6.940037    0.000000    A      2.183593E-01    1.046000E-01
+
+[ moleculetype ]
+; name          nrexcl
+mol       3
+
+; Atomic charges are those loaded from .mol2 file
+[ atoms ]
+;  Index   type   residue  resname   atom        cgnr     charge       mass
+     1     c3         1      FSI     C             1    0.00000000   12.010736
+     2     c3         1      FSI     C             2    0.00000000   12.010736
+     3     n3         1      FSI     N             3   -1.00000000   14.006703
+     4     c3         1      FSI     C             4    0.00000000   12.010736
+     5     c3         1      FSI     C             5    0.00000000   12.010736
+     6     o          1      FSI     O             6    0.00000000   15.999405
+     7     o          1      FSI     O             7    0.00000000   15.999405
+     8     o          1      FSI     O             8    0.00000000   15.999405
+     9     o          1      FSI     O             9    0.00000000   15.999405
+    10     f          1      FSI     F            10    0.00000000   18.998403
+    11     f          1      FSI     F            11    0.00000000   18.998403
+    12     f          1      FSI     F            12    0.00000000   18.998403
+    13     f          1      FSI     F            13    0.00000000   18.998403
+    14     f          1      FSI     F            14    0.00000000   18.998403
+    15     f          1      FSI     F            15    0.00000000   18.998403
+    16     UF_Li      1      FSI     Li           16    0.00000000    6.940037
+ 
+[ bonds ]
+; atom_i  atom_j  functype      r0 (nm)    k (kJ/mol/nm^2)
+    1       2         1        0.153750     2.517931E+05     ; C-C, prebuilt c3-c3
+    1      10         1        0.134970     2.986539E+05     ; C-F, prebuilt c3-f
+    1      11         1        0.134970     2.986539E+05     ; C-F, prebuilt c3-f
+    1      12         1        0.134970     2.986539E+05     ; C-F, prebuilt c3-f
+    2       3         1        0.146470     2.727131E+05     ; C-N, prebuilt c3-n3
+    2       8         1        0.131650     3.764763E+05     ; C-O, prebuilt c3-o
+    2       9         1        0.131650     3.764763E+05     ; C-O, prebuilt c3-o
+    3       4         1        0.146470     2.727131E+05     ; N-C, prebuilt c3-n3
+    3      16         1        0.170916     2.500000E+05     ; N-Li (n3-UF_Li) missing and simply guessed
+    4       5         1        0.153750     2.517931E+05     ; C-C, prebuilt c3-c3
+    4       6         1        0.131650     3.764763E+05     ; C-O, prebuilt c3-o
+    4       7         1        0.131650     3.764763E+05     ; C-O, prebuilt c3-o
+    5      13         1        0.134970     2.986539E+05     ; C-F, prebuilt c3-f
+    5      14         1        0.134970     2.986539E+05     ; C-F, prebuilt c3-f
+    5      15         1        0.134970     2.986539E+05     ; C-F, prebuilt c3-f
+ 
+[ angles ]
+; atom_i  atom_j  atom_k  functype    a0 (Deg.)  k (kJ/mol/rad^2)
+    1       2       3         1       111.040      5.522880E+02     ; C-C-N, prebuilt c3-c3-n3
+    1       2       8         1       113.010      5.732080E+02     ; C-C-O, prebuilt c3-c3-o
+    1       2       9         1       113.010      5.732080E+02     ; C-C-O, prebuilt c3-c3-o
+    2       1      10         1       109.240      5.531248E+02     ; C-C-F, prebuilt c3-c3-f
+    2       1      11         1       109.240      5.531248E+02     ; C-C-F, prebuilt c3-c3-f
+    2       1      12         1       109.240      5.531248E+02     ; C-C-F, prebuilt c3-c3-f
+    2       3       4         1       112.350      5.338784E+02     ; C-N-C, prebuilt c3-n3-c3
+    2       3      16         1        83.425      5.000000E+02     ; C-N-Li (c3-n3-UF_Li) missing and simply guessed
+    3       2       8         1       108.362      5.000000E+02     ; N-C-O (n3-c3-o) missing and simply guessed
+    3       2       9         1       114.042      5.000000E+02     ; N-C-O (n3-c3-o) missing and simply guessed
+    3       4       5         1       111.040      5.522880E+02     ; N-C-C, prebuilt c3-c3-n3
+    3       4       6         1       109.045      5.000000E+02     ; N-C-O (n3-c3-o) missing and simply guessed
+    3       4       7         1       114.009      5.000000E+02     ; N-C-O (n3-c3-o) missing and simply guessed
+    4       3      16         1       153.857      5.000000E+02     ; C-N-Li (c3-n3-UF_Li) missing and simply guessed
+    4       5      13         1       109.240      5.531248E+02     ; C-C-F, prebuilt c3-c3-f
+    4       5      14         1       109.240      5.531248E+02     ; C-C-F, prebuilt c3-c3-f
+    4       5      15         1       109.240      5.531248E+02     ; C-C-F, prebuilt c3-c3-f
+    5       4       6         1       113.010      5.732080E+02     ; C-C-O, prebuilt c3-c3-o
+    5       4       7         1       113.010      5.732080E+02     ; C-C-O, prebuilt c3-c3-o
+    6       4       7         1       122.300      6.225792E+02     ; O-C-O, prebuilt o-c3-o
+    8       2       9         1       122.300      6.225792E+02     ; O-C-O, prebuilt o-c3-o
+   10       1      11         1       107.360      5.932912E+02     ; F-C-F, prebuilt f-c3-f
+   10       1      12         1       107.360      5.932912E+02     ; F-C-F, prebuilt f-c3-f
+   11       1      12         1       107.360      5.932912E+02     ; F-C-F, prebuilt f-c3-f
+   13       5      14         1       107.360      5.932912E+02     ; F-C-F, prebuilt f-c3-f
+   13       5      15         1       107.360      5.932912E+02     ; F-C-F, prebuilt f-c3-f
+   14       5      15         1       107.360      5.932912E+02     ; F-C-F, prebuilt f-c3-f
+ 
+[ dihedrals ] ; propers
+; atom_i  atom_j  atom_k  atom_l  functype   d0 (Deg.)   k (kJ/mol/rad^2)    ; Case of functype=2
+; atom_i  atom_j  atom_k  atom_l  functype  phase (Deg.)  kd (kJ/mol) pn     ; Case of functype=9
+    1       2       3       4         9         0.000       1.25520    3     ; C-C-N-C, prebuilt c3-c3-n3-c3
+    1       2       3       4         9       180.000       2.00832    2     ; C-C-N-C, prebuilt c3-c3-n3-c3
+    1       2       3      16         9         0.000       1.25520    3     ; C-C-N-Li, prebuilt X-c3-n3-X
+    2       3       4       5         9         0.000       1.25520    3     ; C-N-C-C, prebuilt c3-c3-n3-c3
+    2       3       4       5         9       180.000       2.00832    2     ; C-N-C-C, prebuilt c3-c3-n3-c3
+    2       3       4       6         9         0.000       1.25520    3     ; C-N-C-O, prebuilt X-c3-n3-X
+    2       3       4       7         9         0.000       1.25520    3     ; C-N-C-O, prebuilt X-c3-n3-X
+    3       2       1      10         9         0.000       0.65084    3     ; N-C-C-F, prebuilt X-c3-c3-X
+    3       2       1      11         9         0.000       0.65084    3     ; N-C-C-F, prebuilt X-c3-c3-X
+    3       2       1      12         9         0.000       0.65084    3     ; N-C-C-F, prebuilt X-c3-c3-X
+    3       4       5      13         9         0.000       0.65084    3     ; N-C-C-F, prebuilt X-c3-c3-X
+    3       4       5      14         9         0.000       0.65084    3     ; N-C-C-F, prebuilt X-c3-c3-X
+    3       4       5      15         9         0.000       0.65084    3     ; N-C-C-F, prebuilt X-c3-c3-X
+    4       3       2       8         9         0.000       1.25520    3     ; C-N-C-O, prebuilt X-c3-n3-X
+    4       3       2       9         9         0.000       1.25520    3     ; C-N-C-O, prebuilt X-c3-n3-X
+    5       4       3      16         9         0.000       1.25520    3     ; C-C-N-Li, prebuilt X-c3-n3-X
+    6       4       3      16         9         0.000       1.25520    3     ; O-C-N-Li, prebuilt X-c3-n3-X
+    6       4       5      13         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    6       4       5      14         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    6       4       5      15         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    7       4       3      16         9         0.000       1.25520    3     ; O-C-N-Li, prebuilt X-c3-n3-X
+    7       4       5      13         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    7       4       5      14         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    7       4       5      15         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    8       2       1      10         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    8       2       1      11         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    8       2       1      12         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    8       2       3      16         9         0.000       1.25520    3     ; O-C-N-Li, prebuilt X-c3-n3-X
+    9       2       1      10         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    9       2       1      11         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    9       2       1      12         9         0.000       0.65084    3     ; O-C-C-F, prebuilt X-c3-c3-X
+    9       2       3      16         9         0.000       1.25520    3     ; O-C-N-Li, prebuilt X-c3-n3-X
+
+[ pairs ] ; Yielded based on rotatable dihedrals
+; atom_i  atom_j  functype
+    1       4         1     ; C-C-N-C
+    1      16         1     ; C-C-N-Li
+    2       5         1     ; C-N-C-C
+    2       6         1     ; C-N-C-O
+    2       7         1     ; C-N-C-O
+    3      10         1     ; N-C-C-F
+    3      11         1     ; N-C-C-F
+    3      12         1     ; N-C-C-F
+    3      13         1     ; N-C-C-F
+    3      14         1     ; N-C-C-F
+    3      15         1     ; N-C-C-F
+    4       8         1     ; C-N-C-O
+    4       9         1     ; C-N-C-O
+    5      16         1     ; C-C-N-Li
+    6      16         1     ; O-C-N-Li
+    6      13         1     ; O-C-C-F
+    6      14         1     ; O-C-C-F
+    6      15         1     ; O-C-C-F
+    7      16         1     ; O-C-N-Li
+    7      13         1     ; O-C-C-F
+    7      14         1     ; O-C-C-F
+    7      15         1     ; O-C-C-F
+    8      10         1     ; O-C-C-F
+    8      11         1     ; O-C-C-F
+    8      12         1     ; O-C-C-F
+    8      16         1     ; O-C-N-Li
+    9      10         1     ; O-C-C-F
+    9      11         1     ; O-C-C-F
+    9      12         1     ; O-C-C-F
+    9      16         1     ; O-C-N-Li
+
+; No improper needs to generate

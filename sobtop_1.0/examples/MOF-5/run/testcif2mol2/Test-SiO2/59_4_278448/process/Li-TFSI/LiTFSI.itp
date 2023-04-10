@@ -1,0 +1,128 @@
+; Created by Sobtop (http://sobereva.com/soft/sobtop) Version 1.0(dev3.1) on 2022-08-05
+
+[ atomtypes ]
+; name   at.num      mass       charge   ptype     sigma (nm)    epsilon (kJ/mol)
+n2           7    14.006703    0.000000    A      3.249999E-01    7.112800E-01
+sy          16    32.064787    0.000000    A      3.563595E-01    1.046000E+00
+o            8    15.999405    0.000000    A      2.959922E-01    8.786400E-01
+n4           7    14.006703    0.000000    A      3.249999E-01    7.112800E-01
+f            9    18.998403    0.000000    A      3.118146E-01    2.552240E-01
+UF_Li        3     6.940037    0.000000    A      2.183593E-01    1.046000E-01
+
+[ moleculetype ]
+; name          nrexcl
+LiTFSI       3
+
+; Atomic charges are those loaded from .mol2 file
+[ atoms ]
+;  Index   type   residue  resname   atom        cgnr     charge       mass
+     1     n2         1      MOL     N             1    0.00000000   14.006703
+     2     sy         1      MOL     S             2    0.00000000   32.064787
+     3     o          1      MOL     O             3    0.00000000   15.999405
+     4     o          1      MOL     O             4    0.00000000   15.999405
+     5     n4         1      MOL     N             5    0.00000000   14.006703
+     6     f          1      MOL     F             6    0.00000000   18.998403
+     7     f          1      MOL     F             7    0.00000000   18.998403
+     8     f          1      MOL     F             8    0.00000000   18.998403
+     9     sy         1      MOL     S             9    0.00000000   32.064787
+    10     o          1      MOL     O            10    0.00000000   15.999405
+    11     o          1      MOL     O            11    0.00000000   15.999405
+    12     n4         1      MOL     N            12    0.00000000   14.006703
+    13     f          1      MOL     F            13    0.00000000   18.998403
+    14     f          1      MOL     F            14    0.00000000   18.998403
+    15     f          1      MOL     F            15    0.00000000   18.998403
+    16     UF_Li      1      MOL     Li           16    0.00000000    6.940037
+ 
+[ bonds ]
+; atom_i  atom_j  functype      r0 (nm)    k (kJ/mol/nm^2)
+    1       2         1        0.154400     3.799909E+05     ; N-S, prebuilt n2-sy
+    1       9         1        0.154400     3.799909E+05     ; N-S, prebuilt n2-sy
+    2       3         1        0.146600     4.125424E+05     ; S-O, prebuilt o-sy
+    2       4         1        0.146600     4.125424E+05     ; S-O, prebuilt o-sy
+    2       5         1        0.148000     2.500000E+05     ; S-N (sy-n4) missing and simply guessed
+    5       6         1        0.130800     4.408262E+05     ; N-F, prebuilt f-n4
+    5       7         1        0.130800     4.408262E+05     ; N-F, prebuilt f-n4
+    5       8         1        0.130800     4.408262E+05     ; N-F, prebuilt f-n4
+    9      10         1        0.146600     4.125424E+05     ; S-O, prebuilt o-sy
+    9      11         1        0.146600     4.125424E+05     ; S-O, prebuilt o-sy
+    9      12         1        0.148000     2.500000E+05     ; S-N (sy-n4) missing and simply guessed
+   12      13         1        0.130800     4.408262E+05     ; N-F, prebuilt f-n4
+   12      14         1        0.130800     4.408262E+05     ; N-F, prebuilt f-n4
+   12      15         1        0.130800     4.408262E+05     ; N-F, prebuilt f-n4
+ 
+[ angles ]
+; atom_i  atom_j  atom_k  functype    a0 (Deg.)  k (kJ/mol/rad^2)
+    1       2       3         1       123.530      5.824128E+02     ; N-S-O, prebuilt n2-sy-o
+    1       2       4         1       123.530      5.824128E+02     ; N-S-O, prebuilt n2-sy-o
+    1       2       5         1       179.631      5.000000E+02     ; N-S-N (n2-sy-n4) missing and simply guessed
+    1       9      10         1       123.530      5.824128E+02     ; N-S-O, prebuilt n2-sy-o
+    1       9      11         1       123.530      5.824128E+02     ; N-S-O, prebuilt n2-sy-o
+    1       9      12         1       176.819      5.000000E+02     ; N-S-N (n2-sy-n4) missing and simply guessed
+    2       1       9         1       118.217      5.000000E+02     ; S-N-S (sy-n2-sy) missing and simply guessed
+    2       5       6         1       116.738      5.000000E+02     ; S-N-F (sy-n4-f) missing and simply guessed
+    2       5       7         1       177.919      5.000000E+02     ; S-N-F (sy-n4-f) missing and simply guessed
+    2       5       8         1       112.335      5.000000E+02     ; S-N-F (sy-n4-f) missing and simply guessed
+    3       2       4         1       121.410      6.066800E+02     ; O-S-O, prebuilt o-sy-o
+    3       2       5         1        96.114      5.000000E+02     ; O-S-N (o-sy-n4) missing and simply guessed
+    4       2       5         1        81.468      5.000000E+02     ; O-S-N (o-sy-n4) missing and simply guessed
+    6       5       7         1       109.050      5.899440E+02     ; F-N-F, prebuilt f-n4-f
+    6       5       8         1       109.050      5.899440E+02     ; F-N-F, prebuilt f-n4-f
+    7       5       8         1       109.050      5.899440E+02     ; F-N-F, prebuilt f-n4-f
+    9      12      13         1       123.696      5.000000E+02     ; S-N-F (sy-n4-f) missing and simply guessed
+    9      12      14         1       141.883      5.000000E+02     ; S-N-F (sy-n4-f) missing and simply guessed
+    9      12      15         1        93.722      5.000000E+02     ; S-N-F (sy-n4-f) missing and simply guessed
+   10       9      11         1       121.410      6.066800E+02     ; O-S-O, prebuilt o-sy-o
+   10       9      12         1        81.720      5.000000E+02     ; O-S-N (o-sy-n4) missing and simply guessed
+   11       9      12         1        96.965      5.000000E+02     ; O-S-N (o-sy-n4) missing and simply guessed
+   13      12      14         1       109.050      5.899440E+02     ; F-N-F, prebuilt f-n4-f
+   13      12      15         1       109.050      5.899440E+02     ; F-N-F, prebuilt f-n4-f
+   14      12      15         1       109.050      5.899440E+02     ; F-N-F, prebuilt f-n4-f
+ 
+[ dihedrals ] ; propers
+; atom_i  atom_j  atom_k  atom_l  functype   d0 (Deg.)   k (kJ/mol/rad^2)    ; Case of functype=2
+; atom_i  atom_j  atom_k  atom_l  functype  phase (Deg.)  kd (kJ/mol) pn     ; Case of functype=9
+    1       9      12      13         9         0.000       0.55787    3     ; N-S-N-F, prebuilt X-n4-sy-X
+    1       9      12      14         9         0.000       0.55787    3     ; N-S-N-F, prebuilt X-n4-sy-X
+    1       9      12      15         9         0.000       0.55787    3     ; N-S-N-F, prebuilt X-n4-sy-X
+    2       1       9      10         9         0.000       0.00000    1     ; S-N-S-O (sy-n2-sy-o) missing
+    2       1       9      11         9         0.000       0.00000    1     ; S-N-S-O (sy-n2-sy-o) missing
+    2       1       9      12         9         0.000       0.00000    1     ; S-N-S-N (sy-n2-sy-n4) missing
+    3       2       1       9         9         0.000       0.00000    1     ; O-S-N-S (o-sy-n2-sy) missing
+    3       2       5       6         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+    3       2       5       7         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+    3       2       5       8         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+    4       2       1       9         9         0.000       0.00000    1     ; O-S-N-S (o-sy-n2-sy) missing
+    4       2       5       6         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+    4       2       5       7         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+    4       2       5       8         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+   10       9      12      13         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+   10       9      12      14         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+   10       9      12      15         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+   11       9      12      13         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+   11       9      12      14         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+   11       9      12      15         9         0.000       0.55787    3     ; O-S-N-F, prebuilt X-n4-sy-X
+
+[ pairs ] ; Yielded based on rotatable dihedrals
+; atom_i  atom_j  functype
+    1      13         1     ; N-S-N-F
+    1      14         1     ; N-S-N-F
+    1      15         1     ; N-S-N-F
+    2      10         1     ; S-N-S-O
+    2      11         1     ; S-N-S-O
+    2      12         1     ; S-N-S-N
+    3       9         1     ; O-S-N-S
+    3       6         1     ; O-S-N-F
+    3       7         1     ; O-S-N-F
+    3       8         1     ; O-S-N-F
+    4       9         1     ; O-S-N-S
+    4       6         1     ; O-S-N-F
+    4       7         1     ; O-S-N-F
+    4       8         1     ; O-S-N-F
+   10      13         1     ; O-S-N-F
+   10      14         1     ; O-S-N-F
+   10      15         1     ; O-S-N-F
+   11      13         1     ; O-S-N-F
+   11      14         1     ; O-S-N-F
+   11      15         1     ; O-S-N-F
+
+; No improper needs to generate

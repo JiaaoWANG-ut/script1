@@ -52,7 +52,7 @@ def packmol_to_zeo(input_file_zeo,input_file_ion,number):
     f.close()
     subprocess.call("cat mail.inp",shell=True)
 
-    subprocess.call("source  ~/.bashrc; packmol < mail.inp",shell=True)
+    subprocess.call("packmol < mail.inp",shell=True)
 
     f=open(input_file_zeo)
     latticeinfo=f.readlines()[1]

@@ -34,7 +34,7 @@ symbols = atoms.get_chemical_symbols()
 coords = atoms.get_positions()
 
 # Generate output file name based on input file name
-output_name = 'structure_cp2k.xyz'
+output_name = 'input.structure'
 
 # Write out the cell matrix and atomic coordinates to output file
 with open(output_name, 'w') as f:

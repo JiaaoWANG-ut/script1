@@ -1,4 +1,7 @@
+echo $SCRIPTS
 cp $SCRIPTS/sobtop_1.0/* .
+
+#cp '$SCRIPTS'/sobtop_1.0/* .
   
 ./sobtop <<EOF
 ready.pdb

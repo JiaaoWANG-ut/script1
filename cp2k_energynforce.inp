@@ -7,8 +7,16 @@
 
 &FORCE_EVAL
   METHOD Quickstep
+  #STRESS_TENSOR ANALYTICAL  
+  &PRINT      
+    &FORCES ON
+    &END FORCES
+    # &STRESS_TENSOR ON
+    #&END STRESS_TENSOR
+  &END PRINT
+
   &SUBSYS 
-  @INCLUDE structure_cp2k.xyz
+  @INCLUDE input.structure
   @INCLUDE element.pot 
   &END SUBSYS
 
@@ -47,8 +55,4 @@
       &END MIXING
     &END SCF
   &END DFT
-  &PRINT
-    &FORCES ON
-    &END FORCES
-  &END PRINT
 &END FORCE_EVAL
